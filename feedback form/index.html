@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Feedback form</title>
+</head>
+
+<body id="body">
+  <!-- <img src="background1.jpg" /> -->
+  <div id="back">
+    
+      <h1 id="title">Feedback form</h1>
+
+      <p id="description"><em>Please take a moment to let us know about your dining experience.</em></p>
+
+      <div id="card">
+      <form id="survey-form">
+        <label for="name-label" id="name-label"><Strong>Name:</Strong> &#x2a</label><br>
+        <input type="text" id="name" name="name" placeholder="Name" required><br>
+        <br>
+
+        <label for="email-label" id="email-label"><Strong>Email:</Strong> &#x2a</label><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br>
+        <br>
+
+        <label for="number-label" id="number-label"><Strong>Age(optional):</Strong></label><br>
+        <input type="number" id="number" name="age" placeholder="Age" min="4" max="90"><br>
+        <br>
+
+        <label for="gender"><Strong>Gender:</Strong></label>
+        <br>
+        <select name="gender" id="dropdown">
+          <option value="" selected disabled hidden>Choose here</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select> 
+        <br>
+        <br> 
+
+        <label for="food"><Strong>Food:</Strong></label>
+        <br>
+        <div id="checkbox-group">
+        <input type="checkbox" id="chinese" name="chinese" value="chinese">
+        <label for="chinese">Chinese</label>
+        <input type="checkbox" id="indian" name="indian" value="indian">
+        <label for="indian">Indian</label><br>
+        </div>
+        <div id="checkbox-group">
+        <input type="checkbox" id="italian" name="italian" value="italian">
+        <label for="italian">Italian</label>
+        <input type="checkbox" id="maxican" name="maxican" value="maxican">
+        <label for="maxican">Maxican</label><br>
+        </div>
+        <br>
+        <label for="stars"><Strong>Star rating:</Strong></label>
+        <br>
+        <input type="radio" id="star" name="star" value="five"/>  &#9733; &#9733; &#9733; &#9733; &#9733; 
+        <br>
+        <input type="radio" id="star" name="star" value="four"/> &#9733; &#9733; &#9733; &#9733;
+        <br>
+        <input type="radio" id="star" name="star" value="four"/> &#9733; &#9733; &#9733;
+        <br>
+        <input type="radio" id="star" name="star" value="four"/> &#9733; &#9733;
+        <br>
+        <input type="radio" id="star" name="star" value="four"/> &#9733;
+        <br> 
+
+        
+        
+
+        <br>
+        <label for="comment"><Strong>Suggestions:</Strong></label>
+        <br>
+        <textarea id="comment" name="comment" rows="7" cols="57" placeholder="We value your suggestions..."></textarea>
+        <br>
+        <input type="submit" value="Submit" id="submit">
+        </div>
+      </div>
+    </form>
+
+
+
+</body>
+
+</html>
